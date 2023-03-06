@@ -13,6 +13,7 @@ public class DeleteDelWord {
     public void deleteTheWordDel(String input, String expected){
         String actual = sut.delDel(input);
         Assert.assertEquals(expected, actual);
+        //test git
 
     }
 }
